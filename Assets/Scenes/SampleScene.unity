@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 357904513}
   - component: {fileID: 357904512}
   - component: {fileID: 357904511}
+  - component: {fileID: 357904514}
   m_Layer: 0
   m_Name: Paddle1
   m_TagString: Untagged
@@ -253,6 +254,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &357904514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 357904510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daee5a01a66c7504e92f77d8e2a63f86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
 --- !u!1 &453508981
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,6 +278,7 @@ GameObject:
   - component: {fileID: 453508984}
   - component: {fileID: 453508983}
   - component: {fileID: 453508982}
+  - component: {fileID: 453508985}
   m_Layer: 0
   m_Name: Paddle2
   m_TagString: Untagged
@@ -383,6 +398,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &453508985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453508981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb25240b507d66d46b9d2864da7bc4b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,7 +539,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c0c51b442400139409f2058f663d609d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -531,7 +559,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1180251010}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: c0c51b442400139409f2058f663d609d, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
